@@ -10,3 +10,10 @@ print('d[\'Michael\'] =', d['Michael'])
 print('d[\'Bob\'] =', d['Bob'])
 print('d[\'Tracy\'] =', d['Tracy'])
 print('d.get(\'Thomas\', -1) =', d.get('Thomas', -1))
+
+students = ['li','wang','rong']
+show = dict.fromkeys(students,10)
+print(show)
+print(show.keys(),show.values(),show.items())
+
+

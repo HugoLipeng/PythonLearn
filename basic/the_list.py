@@ -10,3 +10,5 @@ print('classmates[2] =', classmates[2])
 print('classmates[-1] =', classmates[-1])
 classmates.pop()
 print('classmates =', classmates)
+
+# Python中append和extend的区别 ： https://www.cnblogs.com/subic/p/6553187.html

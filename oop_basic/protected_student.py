@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 class Student(object):
-
+#初始化函数中，self后面是实例化对象的属性，加下划线是表明 属性是私有的。
     def __init__(self, name, score):
         self.__name = name
         self.__score = score

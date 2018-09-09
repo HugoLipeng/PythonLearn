@@ -9,3 +9,8 @@ for name in names:
 # 打印数字 0 - 9
 for x in range(10):
     print(x)
+
+# 循环里面 else 的用法；如果没遇到循环里面的break，就会循环结束后执行else
+#  for :
+#
+#  else :

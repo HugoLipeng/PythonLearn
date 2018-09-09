@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# coding 建议：能使用for循环就不要使用while循环；
+# 当循环的条件和数量没关系时，只能用while循环。
 # 计算1+2+3+...+100:
 sum = 0
 n = 1
