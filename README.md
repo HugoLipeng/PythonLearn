@@ -12,6 +12,8 @@ python learning step by step
 
 [数据库管理工具 sequel pro](http://www.sequelpro.com/download)
 
+jupyter notebook  == 打开当前目录的 .ipynb 文件
+
 爬虫相关：  
 requests 获取页面内容  
-beautiful soup 解析网页内容
+beautiful soup 解析网页内容 
