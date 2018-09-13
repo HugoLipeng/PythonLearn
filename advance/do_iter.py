@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# 如何判断一个对象是可迭代对象呢？方法是通过collections模块的Iterable类型判断：
 from collections import Iterable, Iterator
 
 def g():

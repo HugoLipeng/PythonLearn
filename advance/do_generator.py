@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+# 列表生成式即List Comprehensions，是Python内置的非常简单却强大的可以用来创建list的生成式。
 s = (x * x for x in range(5))
 print(s)
 for x in s:
@@ -28,4 +28,8 @@ while 1:
     except StopIteration as e:
         print('Generator return value:', e.value)
         break
+
+print([x * x for x in range(1, 11) if x % 2 == 0])
+
+print([m + n for m in 'ABC' for n in 'XYZ'])
 

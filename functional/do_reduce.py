@@ -3,6 +3,8 @@
 
 from functools import reduce
 
+# reduce(f, [x1, x2, x3, x4]) = f(f(f(x1, x2), x3), x4)
+
 CHAR_TO_INT = {
     '0': 0,
     '1': 1,
@@ -59,3 +61,14 @@ print(str2float('123.45600'))
 print(str2float('0.1234'))
 print(str2float('.1234'))
 print(str2float('120.0034'))
+
+
+# Python提供的sum()函数可以接受一个list并求和，请编写一个prod()函数，可以接受一个list并利用reduce()求积：
+def prod(L):
+    return reduce(fn, L)
+
+def fn(x, y):
+    return x*y
+
+# def prod(L):
+#     return reduce(lambda x, y: x*y, L)
