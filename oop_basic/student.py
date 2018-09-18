@@ -2,7 +2,9 @@
 # -*- coding: utf-8 -*-
 
 class Student(object):
-
+    # 特殊方法“__init__”前后分别有两个下划线！！！
+    # 注意到__init__方法的第一个参数永远是self，表示创建的实例本身，因此，在__init__方法内部，
+    # 就可以把各种属性绑定到self，因为self就指向创建的实例本身。
     def __init__(self, name, score):
         self.name = name
         self.score = score

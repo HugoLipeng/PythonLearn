@@ -16,4 +16,22 @@ jupyter notebook  == 打开当前目录的 .ipynb 文件
 
 爬虫相关：  
 requests 获取页面内容  
-beautiful soup 解析网页内容 
+beautiful soup 解析网页内容
+ 
+ ## 廖雪峰Python 慕课视频学习笔记
+ python适合的领域：  
+Web网站和各种网络服务；   
+系统工具和脚本；        
+作为“胶水”语言把其他语言开发的模块包装起来方便使用      
+
+
+
+变量和数据类型：Python 内置的基本类型（整数、浮点数、字符串、布尔值、空值）
+
+List 和 Tuple：顺序的集合类型
+
+条件判断和循环：控制程序流程
+
+Dict 和 Set：根据 key 访问的集合类型
+
+函数：定义和调用函数
