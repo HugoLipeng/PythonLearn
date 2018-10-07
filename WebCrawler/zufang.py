@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 
 
 # 获取url下的页面内容
-def get_pages(url):
+def get_pages(link_url):
     response = requests.get(link_url)
     soup = BeautifulSoup(response.text, 'lxml')
     return soup
