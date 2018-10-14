@@ -22,3 +22,4 @@ def get_links(link_url):
 
 link_url = 'https://wh.lianjia.com/zufang/'
 get_pages(link_url)
+get_links(link_url)
