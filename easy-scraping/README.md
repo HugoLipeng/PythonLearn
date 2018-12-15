@@ -71,6 +71,7 @@ education bachelor
 错误处理 
 
 输出错误：try:, except ... as ...: 看如下代码
+
 ```
 try:
     file=open('eeee.txt','r')  #会报错的代码
