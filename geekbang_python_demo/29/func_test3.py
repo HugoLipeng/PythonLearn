@@ -6,9 +6,9 @@ def a_line(a,b):
     return arg_y
 
 
-def a_line(a,b):
-        return lambda x: a*x+b
-    return arg_y
+# def a_line(a,b):
+#         return lambda x: a*x+b
+#     return arg_y
 
 
 # a=3 b=5

@@ -1,11 +1,13 @@
+#-*- encoding:utf-8 -*-
+
 
 # 读取人物名称
-f = open('name.txt')
+f = open('name.txt',encoding="utf-8")
 data = f.read()
 data0 = data.split('|')
 
 # 读取兵器名称
-f2 = open('weapon.txt')
+f2 = open('weapon.txt',encoding="utf-8")
 # data2 = f2.read()
 i = 1
 for  line in f2.readlines():

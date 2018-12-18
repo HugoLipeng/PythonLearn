@@ -8,6 +8,8 @@ def new_tips(argv):
         return nei
     return tips
 
+# 装饰器
+
 
 @new_tips('add_module')
 def add(a, b):

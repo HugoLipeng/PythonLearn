@@ -9,7 +9,8 @@
 
 class Player():    #定义一个类
     def __init__(self, name, hp, occu):
-        self.__name = name  # 变量被称作属性
+        self.__name = name  # 变量被称作属性  _
+        # __name 就不会被实例属性直接引用
         self.hp = hp
         self.occu = occu
     def print_role(self):    #定义一个方法
@@ -29,6 +30,8 @@ class Monster():
 
     def whoami(self):
         print('我是怪物父类')
+
+# 继承
 class Animals(Monster):
     '普通怪物'
     def __init__(self,hp=10):

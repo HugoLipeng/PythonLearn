@@ -15,5 +15,5 @@ print(blist)
 z_num = {}
 for i in zodiac_name:
     z_num[i] = 0
-
+# i:0 (key:value)
 z_num = {i:0 for i in zodiac_name}

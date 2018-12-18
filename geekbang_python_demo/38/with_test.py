@@ -15,4 +15,4 @@ class Testwith(object):
 
 with Testwith():
     print('test')
-    raise NameError('Exception')
+    raise NameError('Exception')   # raise 手动抛出异常

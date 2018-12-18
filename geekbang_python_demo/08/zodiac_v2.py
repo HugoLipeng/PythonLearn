@@ -7,8 +7,8 @@ zodiac_days = ((1, 20), (2, 19), (3, 21), (4, 21), (5, 21), (6, 22),
 
 
 # 用户输入月份和日期
-int_month = int(input('请输入月份：'))
-int_day = int(input('请输入日期'))
+int_month = int(input('请输入月份: '))
+int_day = int(input('请输入日期: '))
 
 # for zd_num in range(len(zodiac_days)):
 #     if zodiac_days[zd_num] >= (int_month, int_day):
