@@ -33,13 +33,20 @@ Name：Autopep8（可以随便取）
 12. 软件包发布的venv
 13. 运行服务的__main__
 
-### Python机器学习
+### Python 机器学习
 pip3 install numpy  
 which python3  
 把结果路径/usr/local/bin/python3导入   
 File - Default Settings- Project InterPreter 和 Run - Edit Configurations- Project InterPreter  
 pip3 install pandas   
 pip3 install matplotlib  
+
+**Tensorflow的安装**  
+pip3 install tensorflow  
+
+### Python 网络库
+
+
 
 ### 按章节分类的课上演示代码 
 
