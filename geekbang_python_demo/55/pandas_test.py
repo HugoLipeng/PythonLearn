@@ -72,7 +72,7 @@ obj4 = Series([4.5, 7.2, -5.3, 3.6], index=['b', 'd', 'c', 'a'])
 
 obj5 = obj4.reindex(['a', 'b', 'c', 'd', 'e'], fill_value=0)
 
-print(obj5)
+# print(obj5)
 
 obj6 = Series(['blue', 'purple', 'yellow'], index=[0, 2, 4])
 
@@ -100,6 +100,6 @@ data3 = Series(np.random.randn(10),
                index=[['a', 'a', 'a', 'b', 'b', 'b', 'c', 'c', 'd', 'd'],
                       [1, 2, 3, 1, 2, 3, 1, 2, 2, 3]])
 
-print( data3.unstack().stack() )
+# print( data3.unstack().stack() )
 
 # print ( data3['b':'c'])

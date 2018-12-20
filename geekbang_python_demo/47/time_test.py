@@ -1,9 +1,9 @@
-import time
+# import time
 # print(time.time())
 # print(time.localtime())
-# print(time.strftime('%Y%m%d'))
+# print(time.strftime('%Y-%m-%d %H:%M:%S'))
 
-
+# 日期和时间的修改==> datetime
 import datetime
 print(datetime.datetime.now())
 newtime = datetime.timedelta(minutes=10)

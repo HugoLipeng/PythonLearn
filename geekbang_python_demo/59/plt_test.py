@@ -43,21 +43,21 @@ import numpy as np
 # # 没啥用，只是让pandas 的plot() 方法在pyCharm上显示
 # plt.show()
 #
-# import matplotlib.pyplot as plt
-# import numpy as np
-# import pandas as pd
-# import seaborn as sns
-#
-# iris = pd.read_csv("./iris_training.csv")
-# #设置样式
-# sns.set(style="white", color_codes=True)
-# # 设置绘制格式为散点图
-# sns.jointplot(x="120", y="4", data=iris, size=5)
-# # distplot绘制曲线
-# sns.distplot(iris['120'])
-#
-# # 没啥用，只是让pandas 的plot() 方法在pyCharm上显示
-# plt.show()
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
+
+iris = pd.read_csv("./iris_training.csv")
+#设置样式
+sns.set(style="white", color_codes=True)
+# 设置绘制格式为散点图
+sns.jointplot(x="120", y="4", data=iris, size=5)
+# distplot绘制曲线
+sns.distplot(iris['120'])
+
+# 没啥用，只是让pandas 的plot() 方法在pyCharm上显示
+plt.show()
 
 import matplotlib.pyplot as plt
 import pandas as pd
