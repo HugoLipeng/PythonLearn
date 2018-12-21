@@ -45,7 +45,10 @@ pip3 install matplotlib
 pip3 install tensorflow  
 
 ### Python 网络库
+// TODO  
 
+
+python3 setup.py install  
 
 
 ### 按章节分类的课上演示代码 

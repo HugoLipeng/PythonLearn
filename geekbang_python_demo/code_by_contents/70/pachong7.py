@@ -32,5 +32,5 @@ def craw2(url):
 # 翻页
 for i in range(15, 46, 15):
     url = 'http://www.infoq.com/cn/news/' + str(i)
-    # print(url)
+    print(url)
     craw2(url)
