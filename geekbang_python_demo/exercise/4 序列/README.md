@@ -4,6 +4,16 @@
 2. 定义第二个字符串Let‘s go并使用print( )输出
 3. 定义第三个字符串"The Zen of Python" -- by Tim Peters 并使用print( )输出
 
+```python
+str1 = "Hello Python"
+print(str1)
+
+str2 = "Let‘s go"
+print(str2)
+
+str3 = "'The Zen of Python' -- by Tim Peters"
+print(str3)
+```
 
 
 # 练习二 字符串基本操作
@@ -13,6 +23,17 @@
 3. 取出xyz字符串的第二个和第三个元素
 4. 对abc输出10次
 5. 判断a字符（串）在 xyz 和 abc 两个字符串中是否存在，并进行输出
+
+```python
+str1 = "xyz"
+str2 = "abc"
+str3 = str1 + str2
+print(str1[1])
+print(str1[2])
+print(str2*10)
+print('a' in str1)
+print('a' in str2)
+```
 
 
 # 练习三 列表的基本操作
@@ -25,6 +46,15 @@
 
 4. 使用切片操作分别取出列表的前三个元素，取出列表的最后一个元素
 
+```python
+list = [1,2,3,4,5]
+list.append(100)
+print(list.remove(3))
+list[0:3]
+list[-1]
+
+```
+
 # 练习四 元组的基本操作
 
 1. 定义一个任意元组，对元组使用append() 查看错误信息
@@ -32,4 +62,16 @@
 3. 定义一个新的元组，和 1. 的元组连接成一个新的元组
 4. 计算元组元素个数
 
+```python
+tup1 = ('Google', 'Runoob', 1997, 2000)
+tup1(-2)
+tup2 = ('a', 'b', 'c')
+print(tup1 + tup2)
 
+print(tup1)
+print(tup2)
+
+print(len(tup1))
+
+
+```
