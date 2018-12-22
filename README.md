@@ -16,7 +16,8 @@ python learning step by step
 
 [数据库管理工具 sequel pro](http://www.sequelpro.com/download)
 
-jupyter notebook  == 打开当前目录的 .ipynb 文件
+**jupyter notebook**  == 打开当前目录的 .ipynb 文件  
+可以用jupyter notebook学习这个笔记[中文 Python 笔记](https://github.com/lijin-THU/notes-python)  
 
 [用VSCode写python的正确姿势](https://www.cnblogs.com/bloglkl/p/5797805.html)  
 
