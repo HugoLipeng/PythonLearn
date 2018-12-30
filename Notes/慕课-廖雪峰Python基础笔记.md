@@ -1,5 +1,6 @@
 # 慕课-廖雪峰Python基础笔记
 
+<https://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000>  
 
 python适合的领域：  
 Web网站和各种网络服务；   
