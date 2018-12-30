@@ -25,3 +25,5 @@ python learning step by step
 requests 获取页面内容  
 beautiful soup 解析网页内容
  
+[181个Python开源项目](https://github.com/mahmoud/awesome-python-applications)，涵盖了15个领域：  
+互联网、音频、视频、图形、游戏、生产力、组织、通讯、教育、科学、CMS、ERP、静态站点、开发和其他。
