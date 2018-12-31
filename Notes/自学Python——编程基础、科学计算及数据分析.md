@@ -33,3 +33,44 @@ Pandas类型	DataFrame, Series
 > b'YmluYXJ5AHN0cmluZw=='  
 > base64.b64decode(b'YmluYXJ5AHN0cmluZw==')  
 > b'binary\x00string'
+
+7，分片： var[lower:upper:step]  
+
+8，代码块 ==> 相同缩进  
+
+```
+x = -0.5  
+if x > 0:  
+    print "Hey!"
+    print "x is positive"
+    print "This is still part of the block"
+print "This isn't part of the block, and will always 
+
+
+This isn't part of the block, and will always print.
+```  
+
+
+9，列表推导式  
+一般用循环生成列表：
+
+```
+values = [10, 21, 4, 7, 12]
+squares = []
+for x in values:
+    squares.append(x**2)
+print squares
+```  
+
+列表推导式可以使用更简单的方法来创建这个列表：  
+
+```
+values = [10,21,4,7,12]
+squares = [x**2 for x in values x <= 10]
+print(squares)  
+square_set = {x**2 for x in values if x <= 10}
+print(square_set)
+square_dict = {x: x**2 for x in values if x <= 10}
+print(square_dict)
+```  
+
