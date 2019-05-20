@@ -96,6 +96,7 @@ print filter(lambda s: s and len(s.strip())>0, ['test', None, '', 'str', '  ', '
 
 无参数decorator
 计算函数调用的时间可以记录调用前后的当前时间戳，然后计算两个时间戳的差。  
+
 ```
 import time
 def performance(f):
