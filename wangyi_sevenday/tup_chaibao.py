@@ -30,7 +30,7 @@ print('Andy = ', Andy)
 
 
 # 使用星号 * 表示任意多个对象值 *rest
-And, *rest = tup9
+Andy, *rest = tup9
 print()
 print('Andy = ', Andy)
 
